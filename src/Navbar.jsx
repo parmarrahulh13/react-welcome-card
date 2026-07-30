@@ -6,16 +6,24 @@ function Navbar(){
         <div className="navbar">
             <div className="logo">
                 <img src={logo} alt="logo" />
-                <h2>Welcome Card React</h2>
+                <div className="logo-text">
+                    <h2><b>Welcome Card </b></h2> 
+                    <h3>React</h3>
+                </div>
+                
             </div>
-            <ul className="nav-link">
+            <div className="links">
+
+              <ul className="nav-link">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Categories</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
-                
-            </ul>
+              </ul>
              <button className="nav-btn">Explore Cards</button>
+
+            </div>
+            
         </div>
     );
 };

@@ -1,0 +1,42 @@
+.hero-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #f1f6fd;
+    color: #000;
+}
+.hero-image img{
+    height: 400px;
+    width: 500px;
+}
+
+.hero-text{
+    text-align: left;
+    padding: 10px;
+}
+
+.hero-text h1{
+    color: #000;
+    font-size: 3rem;
+    line-height: 1.1;
+    text-align: left;
+    
+}
+.changecolor{
+    color: #1465e6;
+}
+
+.hero-text button{
+    color: #fff;
+    background: #1465e6;
+    height: 50px;
+    width: 140px;
+    border: 2px solid #1465e6;
+    border-radius: 10px;
+    transition: 0.2s;
+    margin-top: 15px;
+}
+.hero-text button:active {
+    transform: scale(0.95);
+    background: darkblue;
+}
