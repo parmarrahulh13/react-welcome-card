@@ -14,7 +14,10 @@ function App() {
   return (
     <>
     
-      <Navbar/>
+      <Navbar
+        websitename = "welcomecard"
+        />
+      
       <Hero/>
     </>
     

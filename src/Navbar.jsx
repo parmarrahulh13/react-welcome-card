@@ -1,13 +1,13 @@
 import "./Navbar.css";
 import logo from "./assets/logo.png";
 
-function Navbar(){
+function Navbar({websitename}){
     return (
         <div className="navbar">
             <div className="logo">
                 <img src={logo} alt="logo" />
                 <div className="logo-text">
-                    <h2><b>Welcome Card </b></h2> 
+                    <h2><b>{websitename} </b></h2> 
                     <h3>React</h3>
                 </div>
                 

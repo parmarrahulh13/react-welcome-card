@@ -55,8 +55,9 @@
     color: black;
 }
 .nav-link a:hover{
-    color: blue;
+    color: #1465e6;
     text-decoration: underline;
+    text-underline-offset: 10px; 
 }
 
 /* nav-btn css */
