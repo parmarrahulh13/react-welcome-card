@@ -1,0 +1,38 @@
+.services{
+    background: #fff;
+    color: #000;
+    height: 1000px;
+}
+.service{
+    background: #d3e3fc;
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 110px;
+    border-radius: 15px;
+}
+.servicecards{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid black;
+}
+.icon{
+    height: 60px;
+    width: 70px;
+    background-color: #5592fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 100%;
+}
+.details{
+    text-align: left;
+    padding-left: 10px;
+    
+}
+.details h4{
+    line-height: 1.1;
+}

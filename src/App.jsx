@@ -4,6 +4,8 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import Navbar from './Navbar'
 import Hero from './Hero'
+import Featuredcard from './Featuredcard'
+import Review from './Review'
 import './App.css'
 
 
@@ -17,8 +19,9 @@ function App() {
       <Navbar
         websitename = "welcomecard"
         />
-      
       <Hero/>
+      <Featuredcard/>
+      <Review/>
     </>
     
   )
