@@ -28,14 +28,6 @@ A modern and responsive greeting card website built with React and Vite.
 npm install
 npm run dev
 
-## Project Structure
-
-src/
-├── assets/
-├── data/
-├── components/
-├── App.jsx
-
 ## What I Learned
 
 This project helped me strengthen my React skills, including components, props, state, and CSS.
