@@ -1,38 +1,112 @@
 .services{
     background: #fff;
     color: #000;
-    height: 1000px;
+    padding: 30px 0;
+    cursor: pointer;
 }
 .service{
     background: #d3e3fc;
     width: 1170px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px;
-    margin-left: 110px;
+    padding: 30px;
+    margin: 40px auto;
     border-radius: 15px;
+    gap: 30px;
+}
+.service-hadding{
+    font-size: 40px;
+    color: #000;
 }
 .servicecards{
     display: flex;
     align-items: center;
-    border-right: 1px solid black;
+    width: 300px;
 }
+
 .icon{
-    height: 60px;
-    width: 70px;
-    background-color: #5592fb;
+    width: 65px;
+    height: 65px;
+    background: #4f8df7;
+    color: white;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30px;
-    border-radius: 100%;
+    font-size: 28px;
+    flex-shrink: 0;
 }
 .details{
-    text-align: left;
-    padding-left: 10px;
+    text-align:left ;
+    margin-left: 15px;
+}
+
+.details h4{
+    margin: 0;
+    font-size: 20px;
+}
+
+.details p{
+    margin-top: 8px;
+    color: #000;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+
+/* review css */
+
+.reviews{
+    background: #fff;
+}
+.review-hadding{
+    font-size: 40px;
+    color: #000;
+}
+.review{
+    background: #d3e3fc;
+    width: 1170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    margin: 40px auto;
+    border-radius: 15px;
+    gap: 30px;
+}
+.review img{
+    width: 150px;
+    height: 150px;
+    background: #4f8df7;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
-.details h4{
-    line-height: 1.1;
+.review-card{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.stars{
+    text-align: left;
+    color: #000;
+    padding: 10px;
+    
+}
+.stars p{
+    font-size: 13px;
+    margin: 5px 0;
+}
+.stars h4{
+    color: #4f8df7;
+    margin: 5px 0;
+}
+.stars span{
+    font-size: 11px;
+    display: block;
+    margin-top: 2px;
 }

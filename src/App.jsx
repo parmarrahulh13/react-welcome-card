@@ -6,6 +6,7 @@ import Navbar from './Navbar'
 import Hero from './Hero'
 import Featuredcard from './Featuredcard'
 import Review from './Review'
+import Footer from './Footer'
 import './App.css'
 
 
@@ -22,6 +23,7 @@ function App() {
       <Hero/>
       <Featuredcard/>
       <Review/>
+      <Footer/>
     </>
     
   )
